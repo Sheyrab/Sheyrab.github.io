@@ -1,0 +1,271 @@
+<!doctype html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bondi</title>
+
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <!-- Place favicon.ico in the root directory -->
+
+    <!-- build:css styles/vendor.css -->
+    <!-- bower:css -->
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <!-- build:css styles/main.css -->
+    <link rel="stylesheet" href="../bower_components/normalize-css/normalize.css">
+    <link rel="stylesheet" href="./styles/fonts.css">
+    <link rel="stylesheet" href="./styles/common.css">
+    <link rel="stylesheet" href="./styles/decoration.css">
+    <link rel="stylesheet" href="./styles/media-queries.css">
+    <!-- endbuild -->
+
+</head>
+
+<body class="body">
+    <!--[if lt IE 10]>
+      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+        <div class="wrapper-background-dark">
+            <header class="header clearfix">
+                <a class="logo" href="#" title=""><img src="./images/logo.png" alt="Bondi"></a>
+                <div class="burger-menu__button"></div>
+                <nav class="header-menu">
+                    <ul>
+                        <li class="active"><a href="#">Home</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Portfolio</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><form class="header-search" action="search" method="post">
+                                  <input class="header-search__box" type="search">
+                             </form>
+                        </li>
+                        <li class="header-login__button_width"><a class="big-button header-login__button" href="#">Login</a></li>
+                    </ul>   
+                </nav>                
+                 <section class="main-title">
+                    <h2 class="main-title__head">Taste the Creativity</h2>
+                    <p class="main-title__describing">We make awesome graphic and web design</p>
+                    <a class="big-button main-title_button" href="#">Get Started</a>
+                </section>
+            </header>
+        </div>
+            <section class="services" id="services">
+                <div class="common-title">
+                    <img src="./images/triangle.png" alt="">
+                    <h3 class="common-title__head">We are Good at</h3>
+                    <p class="common-title__text">SOME OF THEASE STUFF UNDER</p>
+                    <hr class="common-title__underline">
+                </div>
+                <div class="service-type">
+                    <img class="service-type_img-displacement-left" src="./images/path1.png" alt="">
+                    <img class="service-type__small-img" src="./images/icon1.png" alt="">
+                    <h4 class="service-type__head">GRAPHIC DESIGN</h4>
+                    <p class="service-type__text">Pellentesque in ipsum id orci porta dapibus. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus.</p>
+                </div>
+                <div class="service-type">
+                    <img src="./images/path2.png" alt="">
+                    <img class="service-type__small-img" src="./images/icon2.png" alt="">
+                    <h4 class="service-type__head">WEB DESIGN</h4>
+                    <p class="service-type__text">Pellentesque in ipsum id orci porta dapibus. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus.</p>
+                </div>
+                <div class="service-type">
+                    <img src="./images/path3.png" alt="">
+                    <img class="service-type__small-img" src="./images/icon3.png" alt="">
+                    <h4 class="service-type__head">APP DESIGN</h4>
+                    <p class="service-type__text">Pellentesque in ipsum id orci porta dapibus. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus.</p>
+                </div>
+            </section>
+        <div class="wrapper-background-light">
+            <section class="portfolio" id="portfolio">
+                <div class="common-title">
+                    <img src="./images/triangle.png" alt="">
+                    <h3 class="common-title__head">We Make This</h3>
+                    <p class="common-title__text">PREPARE TO BE AMAZED</p>
+                    <hr class="common-title__underline">
+                </div>
+                <nav class="portfolio-menu">
+                    <ul class="portfolio-menu__container">
+                        <li onclick="this.classList.toggle('active')"><a href="#portfolio">All</a></li>
+                        <li onclick="this.classList.toggle('active')"><a href="#portfolio">Design</a></li>
+                        <li onclick="this.classList.toggle('active')"><a href="#portfolio">Code</a></li>
+                        <li onclick="this.classList.toggle('active')"><a href="#portfolio">Photography</a></li>
+                        <li onclick="this.classList.toggle('active')"><a href="#portfolio">Apps</a></li>
+                    </ul>   
+                </nav>
+                <div class="portfolio-works">
+                    <a class="item-block portfolio-works__item" href="#portfolio"><img src="./images/portfolio.png" alt=""></a>
+                    <a class="item-block portfolio-works__item" href="#portfolio"><img src="./images/partfolio_001.jpg" alt=""></a>
+                    <a class="item-block portfolio-works__item" href="#portfolio"><img src="./images/partfolio_002.jpg" alt=""></a>
+                    <a class="item-block portfolio-works__item" href="#portfolio"><img src="./images/partfolio_003.jpg" alt=""></a>
+                    <a class="item-block portfolio-works__item" href="#portfolio"><img src="./images/partfolio_004.jpg" alt=""></a>
+                    <a class="item-block portfolio-works__item" href="#portfolio"><img src="./images/partfolio_005.jpg" alt=""></a>
+                    <a class="item-block portfolio-works__item" href="#portfolio"><img src="./images/partfolio_001.jpg" alt=""></a>
+                    <a class="item-block portfolio-works__item" href="#portfolio"><img src="./images/partfolio_002.jpg" alt=""></a>
+                </div>
+                <a href="#portfolio" class="big-button portfolio_big-button">I WANT MORE...</a>                    
+            </section>
+        </div>
+            <section class="about-us" id="about-us">
+                <div class="common-title">
+                    <img src="./images/triangle.png" alt="">
+                    <h3 class="common-title__head">Some Stuff About Us</h3>
+                    <p class="common-title__text">THE GREAT TEAM</p>
+                    <hr class="common-title__underline">
+                </div>
+                <p class="about-us-text simple-text">Donec rutrum congue leo eget malesuada. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Pellentesque in ipsum id orci porta dapibus. Proin eget tortor risus. Donec sollicitudin molestie malesuada.</p>
+                    <div class="about-us-info">
+                        <h3 class="common-title__head">Retina Design</h3>
+                        <p class="simple-text about-us-info_text">Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.</p>
+                        <p class="simple-text about-us-info_text">Donec rutrum congue leo eget malesuada. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Pellentesque in ipsum id orci porta dapibus. Proin eget tortor risus. Donec sollicitudin molestie malesuada.</p>
+                        <a href="#about-us" class="big-button about-us-info_big-button">OREDER ME ONE</a>
+                    </div>
+                    <div class="about-us-macbook">
+                        <img class="about-us-macbook__comp" src="./images/vector-macbook.png" alt="">
+                        <img class="about-us-macbook__screen" src="./images/screen.png" alt="">
+                    </div>
+            </section>
+        <div class="wrapper-background-light">
+            <section class="team" id="team">
+                <h3 class="common-title__head team_hed-color">Meet the Team</h3>
+                <p class="simple-text team_text">Donec rutrum congue leo eget malesuada. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Pellentesque in ipsum id orci porta dapibus. Proin eget tortor risus. Donec sollicitudin molestie malesuada.</p>
+                <div class="team-members">
+                    <a class="item-block team-members__item" href="#team">
+                        <img class="team-members__img" src="./images/luk.jpg" alt="">
+                        <span class="team-members__name">Luke Skywalker</span>
+                        <span class="team-members__description">“I don't understand how we got by those troops. I thought we were dead.“</span>
+                    </a>
+                    <a class="item-block team-members__item" href="#team">
+                        <img class="team-members__img" src="./images/obiwan.jpg" alt="">
+                        <span class="team-members__name">Obi-Wan Kenobi</span>
+                        <span class="team-members__description">“Your clones are very impressive. You must be very proud. Donec rutrum congue leo eget malesuada.”</span>
+                    </a>
+                    <a class="item-block team-members__item" href="#team">
+                        <img class="team-members__img" src="./images/leia.jpg" alt="">
+                        <span class="team-members__name">Princess Leia</span>
+                        <span class="team-members__description">“I don't know who you are or where you came from, but from now on you'll do as I tell you, okay?”</span>
+                    </a>
+                    <a class="item-block team-members__item" href="#team">
+                        <img class="team-members__img" src="./images/yoda.jpg" alt="">
+                        <span class="team-members__name">Yoda</span>
+                        <span class="team-members__description">“Do not assume anything Obi-Wan. Clear your mind must be if you are to discover the real villains behind this plot.”</span>
+                    </a>
+                </div>
+            </section>
+        </div>
+            <section class="clients">
+                <a href="" class="clients__item"><img src="./images/logo-1.png" alt=""></a>
+                <a href="" class="clients__item"><img src="./images/logo-2.png" alt=""></a>
+                <a href="" class="clients__item"><img src="./images/logo-3.png" alt=""></a>
+                <a href="" class="clients__item"><img src="./images/logo-4.png" alt=""></a>
+                <a href="" class="clients__item"><img src="./images/logo-1.png" alt=""></a>
+                <a href="" class="clients__item"><img src="./images/logo-2.png" alt=""></a>
+            </section>
+        <div class="wrapper-background-dark">
+            <section class="advertise-title ">
+                <h2 class="common-title__head advertise-title__head">Start Your Project Now</h2>
+                <p class="main-title__describing advertise-title__text">Leave your description and we start the engine.Don't worry,you can cancel anytime</p>
+                <a href="#advertise" class="big-button advertise-title__button">START PROJECT</a>
+            </section>
+        </div>
+            <section class="blog" id="blog">
+                <div class="common-title">
+                    <img src="./images/triangle.png" alt="">
+                    <h3 class="common-title__head">Read Our Blog</h3>
+                    <p class="common-title__text">NEW STORIES</p>
+                    <hr class="common-title__underline">
+                </div>
+                    <a href="#blog" class="blog-item">
+                        <img src="./images/blog001.jpg" alt="" class="blog-item__img">
+                        <span class="blog-item__date">January 17,2017</span>
+                        <h4 class="blog-item__head">Some Awesome Blog Title Here</h4>
+                    </a>
+                    <a href="#blog" class="blog-item">
+                        <img src="./images/blog002.jpg" alt="" class="blog-item__img">
+                        <span class="blog-item__date">January 17,2017</span>
+                        <h4 class="blog-item__head">Some Awesome Blog Title Here</h4>
+                    </a>
+                    <a href="#blog" class="blog-item">
+                        <img src="./images/blog003.jpg" alt="" class="blog-item__img">
+                        <span class="blog-item__date">January 17,2017</span>
+                        <h4 class="blog-item__head">Some Awesome Blog Title Here</h4>
+                    </a>
+        <div class="wrapper-blog-bottom">
+                    <a class="big-button blog-item__button" href="#blog">MORE STORIES</a>
+        </div>
+            </section>
+        <div class="wraper-newsletter-background">
+            <section class="newsletter" id="newsletter">
+                <form action="" class="newsletter__form" method="post" name="newsletter">
+                    <label class="newsletter__text">Subscribe to our Newsletter:
+                        <input type="email" class="newsletter__input" required placeholder="Enter email Address">
+                    </label>
+                    <button class="big-button newsletter__button" type="submit">Subscribe</button>
+                </form>
+            </section>
+        </div>
+        <div class="wrapper-background-dark">
+            <footer class="footer" id="footer">
+                <section class="footer-info footer_columns-properties">
+                    <a class="footer-info__logo" href="#" title=""><img src="./images/logo.png" alt="Bondi"></a>
+                    <p class="footer-info__text footer-info__text_wide-padding">Pellentesque in ipsum id orci porta dapibus. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus.</p>
+                    <p class="footer-info__text">Created by <span class="color-world-graphberry">Graphberry</span>,Belgrade,Serbia</p>
+                    <p class="footer-info__text">© 2017 - <span class="color-world-bondi">Bondi.Inc</span></p>
+                </section>
+                <nav class="footer-links footer_columns-properties">
+                    <h3 class="footer-links__head">Links</h3>
+                    <a href="#" class="footer-links__item">Home</a>
+                    <a href="#services" class="footer-links__item">Our Services</a>
+                    <a href="#portfolio" class="footer-links__item">Portfolio</a>
+                    <a href="#footer" class="footer-links__item">Testimonials</a>
+                    <a href="#footer" class="footer-links__item">Support</a>
+                    <a href="#footer" class="footer-links__item">Terms and Conditions</a>
+                </nav>
+                <nav class="footer-links footer_columns-properties">
+                    <h3 class="footer-links__head">About Us</h3>
+                    <a href="#" class="footer-links__item">Sign In</a>
+                    <a href="#newsletter" class="footer-links__item">Register</a>
+                    <a href="#about-us" class="footer-links__item">About Us</a>
+                    <a href="#blog" class="footer-links__item">Blog</a>
+                    <a href="#footer" class="footer-links__item">Contact Us</a>
+                </nav>
+                <section class="footer-contact footer_columns-properties">
+                    <h3 class="footer-links__head footer-info__text_different-padding">Contact Us</h3>
+                    <p class="footer-info__text">Get in touch with us via mail phone.We are waiting for your call or message</p>
+                    <a href="#footer" class="big-button footer-button">graphberry@gmail.com</a>
+                    <a href="https://www.facebook.com" class="spcial-icons"><img src="./images/facebook.png" alt=""></a>
+                    <a href="https://twitter.com" class="spcial-icons"><img src="./images/twiter.png" alt=""></a>
+                    <a href="https://www.google.ru/" class="spcial-icons"><img src="./images/google.png" alt=""></a>
+                    <a href="https://dribbble.com/" class="spcial-icons"><img src="./images/dribbble.png" alt=""></a>
+                </section>
+                <section class="footer-info_mobile footer_columns-properties">
+                    <a class="footer-info__logo" href="#" title=""><img src="./images/logo.png" alt="Bondi"></a>
+                    <p class="footer-info__text footer-info__text_wide-padding">Pellentesque in ipsum id orci porta dapibus. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus.</p>
+                    <p class="footer-info__text">Created by <span class="color-world-graphberry">Graphberry</span>,Belgrade,Serbia</p>
+                    <p class="footer-info__text">© 2017 - <span class="color-world-bondi">Bondi.Inc</span></p>
+                </section>
+
+
+            </footer>
+        </div>
+
+
+
+    <!-- build:js scripts/vendor.js -->
+    <!-- bower:js -->
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <!-- build:js scripts/main.js -->
+    <!--<script src="../../node_modules/vue/dist/vue.js"></script>-->
+    <script src="scripts/main.js"></script>
+    <script src="./scripts/jquery-3.2.1.min.js"></script>
+    <script src="./scripts/burger-menu.js"></script>
+    <!-- endbuild -->
+</body>
+
+</html>
