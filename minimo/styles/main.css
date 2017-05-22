@@ -1,0 +1,81 @@
+.article-preview-container {
+	width: 900px;
+	margin: 0 auto;
+}
+.article-preview-container-bottom {
+	width: 900px;
+	margin: 0 auto;
+	padding-top: 92px;
+}
+
+
+.wide-article-preview { /*You may need to remove a class..*/
+padding-bottom: 132px;
+}
+
+.section-name {
+	color: #b4ad9e;
+	font-family: Ubuntu;
+	font-size: 14px;
+	font-weight: 300;
+	text-transform: uppercase;
+}
+
+.article-name {
+	color: #626262;
+	font-family: Playfair-Display;
+	font-size: 30px;
+	font-weight: 400;
+	padding-top: 20px;
+}
+
+.article-text {
+	color: #626262;
+	font-family: Playfair-Display;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;
+	padding-top: 15px;
+}
+
+.feedback {
+	padding-top: 32px;
+}
+
+.small-article-preview {
+	display: inline-block;
+	width: 420px;
+	padding-bottom: 115px;
+}
+
+.small-article-preview:nth-child(odd) {
+	float: right;
+}
+.small-article-preview:nth-child(even) {
+	float: left;
+}
+
+.small-article-preview__img {
+	padding-bottom: 26px;
+}
+.article-preview-container::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.email-form {
+	height: 288px;
+	background-color: #f0f0f0;
+}
+.email-form__title {
+	text-align: center;
+	color: #333333;
+}
+
+.email-form__container,
+.email-form__container input {
+	width: 600px;
+	height: 50px;
+	margin: 0px auto;
+}

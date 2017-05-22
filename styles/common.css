@@ -198,10 +198,14 @@ li.header-login__button_width {
     padding-bottom: 44px;
     font-size: 0;
 }
-
-.portfolio-works__img {
-    display: block;
+.portfolio-works__item {
     height: 200px;
+}
+
+.portfolio-works__item img {
+    display: block;
+    width: 100%;
+    height: auto;
 }
 
 .portfolio_big-button {

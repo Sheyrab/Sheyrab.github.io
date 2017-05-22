@@ -1,0 +1,25 @@
+
+.header {
+	margin: 20px 0;
+}
+
+.header__menu {
+   	min-width: 618px;
+	min-height: 37px;
+	border-radius: 3px;
+}
+
+.header__menu li {
+	display: inline-block;
+	width: 14.285%
+}
+
+.header__menu ul{
+	font-size: 0px;
+}
+
+.header__menu a {
+	display: block;
+	padding: 9px 0;
+	text-align: center;
+}

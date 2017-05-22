@@ -1,0 +1,55 @@
+li, 
+a,
+ul {
+    text-decoration: none;
+    margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+.header__menu {
+	box-shadow: 0 3px 0 #a43a78, inset 1px 1px 18px 1px #984c70;
+	border: 1px solid #f778b7;
+	background-color: #e08ab4;
+	background-image: linear-gradient( 45deg, #d04e8d 25%, transparent 25%, transparent 74%, #d04e8d 75%, #d04e8d), 
+	linear-gradient( 45deg, #d04e8d 25%, transparent 25%, transparent 74%, #d04e8d 75%, #d04e8d);
+	background-size: 4px 4px;
+	background-position: 0 0, 2px 2px;
+}
+
+.header__menu li {
+	box-sizing: border-box;
+	position: relative;
+}
+
+.header__menu a {
+	text-shadow: 1px 1px 0 #ffb0d7;
+	color: #631633;
+	font-family: "MyriadProRegular";
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 20px;
+	text-transform: uppercase;
+	
+}
+li.active a {
+	background: -moz-linear-gradient(top,  rgba(191,99,145,0.15) 0%, rgba(191,99,145,0.15) 1%, rgba(198,59,138,0.38) 50%, rgba(186,27,120,0.85) 100%);
+	background: -webkit-linear-gradient(top,  rgba(191,99,145,0.15) 0%,rgba(191,99,145,0.15) 1%,rgba(198,59,138,0.38) 50%,rgba(186,27,120,0.85) 100%);
+	background: linear-gradient(to bottom,  rgba(191,99,145,0.15) 0%,rgba(191,99,145,0.15) 1%,rgba(198,59,138,0.38) 50%,rgba(186,27,120,0.85) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#26bf6391', endColorstr='#d9ba1b78',GradientType=0 );
+}
+.header__menu li:after {
+	content: "";
+	position: absolute;
+	min-height: 37px;
+	right: -2px;
+	top: 1px;
+	display: block;
+	width: 2px;
+	height: inherit;
+	background: -moz-linear-gradient(top,  rgba(243,161,206,0.15) 0%, rgba(243,161,206,0.75) 41%, rgba(243,161,206,0.75) 42%, rgba(243,161,206,0.75) 57%, rgba(243,161,206,0.59) 58%, rgba(243,161,206,0.15) 100%);
+	background: -webkit-linear-gradient(top,  rgba(243,161,206,0.15) 0%,rgba(243,161,206,0.75) 41%,rgba(243,161,206,0.75) 42%,rgba(243,161,206,0.75) 57%,rgba(243,161,206,0.59) 58%,rgba(243,161,206,0.15) 100%);
+	background: linear-gradient(to bottom,  rgba(243,161,206,0.15) 0%,rgba(243,161,206,0.75) 41%,rgba(243,161,206,0.75) 42%,rgba(243,161,206,0.75) 57%,rgba(243,161,206,0.59) 58%,rgba(243,161,206,0.15) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#EFACCF', endColorstr='#EFACCF',GradientType=0 );
+
+}
