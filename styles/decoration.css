@@ -1,4 +1,5 @@
 /* //// General Styles ////// */
+
 .body {
     background-color: #fff;
 }
@@ -12,16 +13,15 @@
     display: inline-block;
     font-size: 15px;
     font-weight: 500;
-
     color: #ffc501;
     border: none;
     border-radius: 20px;
     background-color: #ff3150;
     cursor: pointer;
 }
+
 .big-button:hover {
     background-color: #BB1E47;
-
 }
 
 .common-title__head {
@@ -45,7 +45,6 @@
     border: none;
     background-color: #00c6bf;
 }
-
 
 
 /*//////////// Header Styles //////////*/
@@ -99,9 +98,10 @@
     color: #a8b9c0;
 }
 
-.main-title__button  a:hover {
+.main-title__button a:hover {
     text-decoration: underline;
 }
+
 
 /* ///////   Services Style ////////////  */
 
@@ -120,6 +120,7 @@
     font-weight: 400;
     line-height: 30px;
 }
+
 
 /* ///////   Portfolio Style ////////////  */
 
@@ -140,16 +141,21 @@
     background-color: #FF6677;
     color: #ffc501;
 }
+
 .portfolio-menu .active a {
     background-color: #ff3150;
     color: #ffc501;
 }
+
 .portfolio-works__item {
-    transition: all 0.4s ease;;
+    transition: all 0.4s ease;
+    ;
 }
+
 .portfolio-works__item:hover {
     opacity: 0.8;
 }
+
 
 /*////////////// Team Styles ///////////////*/
 
@@ -165,7 +171,6 @@
     transform: scale(1.02);
     transition-duration: 0.3s;
 }
-
 
 .team-members__name {
     background-color: #00c6bf;
@@ -187,11 +192,13 @@
     opacity: 0.5;
 }
 
+
 /* ///////////// Avertise ///////////////// */
 
 .advertise-title__head {
     color: #ffffff;
 }
+
 
 /* //////////// Blog ///////////////////*/
 
@@ -199,6 +206,7 @@
     background-color: #eff7fa;
     border: 0;
 }
+
 .blog-item__date {
     color: #a8b9c0;
     font-family: Roboto;
@@ -206,11 +214,11 @@
     font-weight: 400;
 }
 
-.blog-item__head  {
+.blog-item__head {
     color: #1a2940;
     font-family: Roboto;
     font-size: 20px;
-    font-weight: 400;   
+    font-weight: 400;
 }
 
 .blog-item:hover {
@@ -218,20 +226,23 @@
     transition-duration: 0.3s;
 }
 
+
 /* ////////////// Newsletter /////////////////*/
 
 .wraper-newsletter-background {
     width: 100%;
     background-color: #ffc400;
 }
+
 .newsletter__text {
     color: #1a2940;
     font-family: Roboto;
     font-size: 20px;
     font-weight: 400;
 }
+
 .newsletter__input {
-    border:none;
+    border: none;
     border-bottom: 1px solid #eff7fa;
     background-color: #ffc400;
     color: #f0f8fb;
@@ -261,6 +272,7 @@
     font-weight: 400;
 }
 
+
 /* //////////////////// Footer ///////////////// */
 
 .footer-info__text {
@@ -270,6 +282,7 @@
     font-weight: 400;
     line-height: 30px;
 }
+
 .footer-links__head {
     color: #f0f8fb;
     font-family: Roboto;
@@ -283,6 +296,7 @@
     font-size: 13px;
     font-weight: 400;
 }
+
 .footer-button {
     color: #ffffff;
     font-family: Roboto;
@@ -298,9 +312,11 @@
     color: #00c7c0;
     text-decoration: underline;
 }
+
 .color-world-graphberry {
     color: #00c7c0;
 }
+
 .color-world-bondi {
-     color: #ffc501;
+    color: #ffc501;
 }
