@@ -1,7 +1,0 @@
-@font-face {font-family: "Harlow Solid";
- src: url("../fonts/HarlowSolid.woff2") format("woff2"), 
-	  url("../fonts/HarlowSolid.woff") format("woff"),
-	  url("../fonts/HarlowSolid.ttf") format("truetype");
-	  font-style: normal;
-      font-weight: normal; 
-}
